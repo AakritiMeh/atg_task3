@@ -1,0 +1,57 @@
+.blockchain-revolution {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a0e8f;
+  color: white;
+  overflow: hidden;
+}
+
+.content {
+  width: 50%;
+  padding: 2rem;
+  position: relative;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.progress-circle {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.progress-circle path {
+  fill: none;
+  stroke: white;
+  stroke-width: 2;
+}
+
+.images {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.top-image,
+.bottom-image {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.top-image {
+  top: 0;
+}
+
+.bottom-image {
+  bottom: 0;
+}

@@ -1,0 +1,27 @@
+/* CircularProgress.css */
+.circular-progress {
+    width: 200px;
+    height: 200px;
+}
+  
+.circular-progress svg {
+    transform: rotate(-90deg);
+}
+  
+.progress-background {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 4;
+}
+  
+.progress-bar {
+    fill: none;
+    stroke-width: 4;
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.3s ease;
+}
+  
+  /* Color changes based on progress */
+.progress-bar {
+    stroke: hsl(calc(120 + 240 * var(--progress) / 100), 70%, 50%);
+}

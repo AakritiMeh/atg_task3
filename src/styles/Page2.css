@@ -1,0 +1,83 @@
+/* page2.css */
+.Page2Main {
+    display: flex;
+    height: 100vh;
+    background-color: #14213d;
+    color: white;
+    overflow: hidden;
+}
+  
+.page2Left {
+    width: 50%;
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.p2heading {
+    opacity: 0;
+}
+  
+.p2heading p {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+  
+.p2heading h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+.p2heading h2 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+  
+.p2left img {
+    max-width: 100%;
+}
+  
+.p2leftbottom {
+    opacity: 0;
+}
+  
+.p2leftbottom h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+  
+.p2leftbottom p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+  
+.Coming-soon {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: #14213d;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+  
+.page2Right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+  
+.page2Right img {
+    max-width: 100%;
+    opacity: 0;
+}
+  
+.skip {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    color: white;
+    text-decoration: none;
+}
