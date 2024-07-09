@@ -1,22 +1,22 @@
-.Page2Main {
+.Page3Main {
     display: flex;
     height: 100vh;
     color: white;
     overflow: hidden;
   }
   
-  .page2Left {
+  .page3Left {
     width: 50%;
     padding: 5% 5%;
     display: flex;
     flex-direction: column;
     top:35vh;
-    background-color: #16263b;
+    background-color: #0d1038;
     color: white;
     justify-content: space-between;
   }
   
-  .p2heading {
+  .p3heading {
     color: white;
     z-index: 1000;
     
@@ -25,7 +25,7 @@
     
   }
   
-  .p2heading p {
+  .p3heading p {
     font-size: 2rem;
     margin-bottom: 0.5rem;
     color: white;
@@ -33,30 +33,30 @@
 
   }
   
-  .p2heading h1 {
+  .p3heading h1 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
     color: white;
     
   }
   
-  .p2heading h2 {
+  .p3heading h3 {
     font-size: 3rem;
     font-weight: normal;
     color: white;
    
   }
   
-  .p2leftbottom {
+  .p3leftbottom {
     color: white;
   }
   
-  .p2leftbottom h1 {
-    font-size: 3rem;
+  .p3leftbottom h1 {
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
   
-  .p2leftbottom p {
+  .p3leftbottom p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
   }
@@ -64,46 +64,49 @@
   .Coming-soon {
     padding: 0.5rem 1rem;
     background-color: white;
-    color: #14213d;
+    color: #14313d;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
     color: white;
   }
   
-  .page2Right {
+  .page3Right {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 5%;
-    background-color: #0b1118;
+    background-color: #131645;
+    position: relative;
   }
   
-  .page2Right img {
+  .page3Right img {
     max-width: 80%;
-    display: block;
+    display: flex;
+    flex-direction: row;
   }
   
-  .imgTop2 img {
+  .p3imgright img {
     position: absolute;
     top: 10px;
-    right: 0;
+    right: 20px;
     width: 300px;
     height: auto;
+
   }
   
-  .imgDown2 img {
+  .p3imgleft img {
     position: absolute;
     bottom: 0;
-    left: 55%;
+    left: 10%;
     width: 300px;
     height: auto;
   }
   
   .skip {
     position: absolute;
-    bottom: 2rem;
+    bottom: 3rem;
     right: 5rem;
     color: white;
     text-decoration: none;

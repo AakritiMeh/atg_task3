@@ -1,4 +1,4 @@
-.blockchain-revolution {
+/* .blockchain-revolution {
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -54,4 +54,8 @@ h1 {
 
 .bottom-image {
   bottom: 0;
+} */
+
+#root{
+  color: white;
 }

@@ -1,62 +1,51 @@
-.Page2Main {
+.Page4Main {
     display: flex;
     height: 100vh;
     color: white;
     overflow: hidden;
+    position: relative;
   }
   
-  .page2Left {
+  .page4Left {
     width: 50%;
-    padding: 5% 5%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
-    top:35vh;
+    justify-content: center;
     background-color: #16263b;
     color: white;
-    justify-content: space-between;
   }
   
-  .p2heading {
+  .p4heading {
     color: white;
-    z-index: 1000;
-    
-    justify-content: right;
-    text-align: right;
-    
+    margin-bottom: 2rem;
   }
   
-  .p2heading p {
+  .p4heading p {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    color: white;
-
-
   }
   
-  .p2heading h1 {
+  .p4heading h1 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
-    color: white;
-    
   }
   
-  .p2heading h2 {
+  .p4heading h3 {
     font-size: 3rem;
     font-weight: normal;
-    color: white;
-   
   }
   
-  .p2leftbottom {
+  .p4leftbottom {
     color: white;
   }
   
-  .p2leftbottom h1 {
+  .p4leftbottom h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
   }
   
-  .p2leftbottom p {
+  .p4leftbottom p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
   }
@@ -65,40 +54,8 @@
     padding: 0.5rem 1rem;
     background-color: white;
     color: #14213d;
-    text-decoration: none;
     border-radius: 5px;
     display: inline-block;
-    color: white;
-  }
-  
-  .page2Right {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 5%;
-    background-color: #0b1118;
-  }
-  
-  .page2Right img {
-    max-width: 80%;
-    display: block;
-  }
-  
-  .imgTop2 img {
-    position: absolute;
-    top: 10px;
-    right: 0;
-    width: 300px;
-    height: auto;
-  }
-  
-  .imgDown2 img {
-    position: absolute;
-    bottom: 0;
-    left: 55%;
-    width: 300px;
-    height: auto;
   }
   
   .skip {
@@ -108,4 +65,64 @@
     color: white;
     text-decoration: none;
   }
+  
+  .page4Right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: #0b1118;
+    position: relative;
+  }
+  
+  .p4top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .p4center {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .p4bottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .p4tl {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .p4tl img, .p4tr img, .p4c img, .p4bl img, .p4br img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .p4tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .p4br {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .p4bl {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+
   

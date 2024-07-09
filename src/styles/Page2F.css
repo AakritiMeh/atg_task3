@@ -1,4 +1,4 @@
-.Page2Main {
+/* .Page2Main {
     display: flex;
     height: 100vh;
     color: white;
@@ -107,5 +107,100 @@
     right: 5rem;
     color: white;
     text-decoration: none;
+  }
+   */
+
+   .Page2Main {
+    display: flex;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .page2Left {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #16263b;
+    color: white;
+  }
+  
+  .p2heading {
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .p2heading p {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .p2heading h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .p2heading h2 {
+    font-size: 3rem;
+    font-weight: normal;
+  }
+  
+  .p2leftbottom {
+    color: white;
+  }
+  
+  .p2leftbottom h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .p2leftbottom p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Coming-soon {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: #14213d;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .skip {
+    position: absolute;
+    bottom: 2rem;
+    right: 5rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .page2Right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: #0b1118;
+    position: relative;
+  }
+  
+  .imgTop2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .imgDown2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .page2Right img {
+    max-width: 100%;
+    display: block;
   }
   
