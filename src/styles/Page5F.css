@@ -1,0 +1,132 @@
+.Page5Main {
+    display: flex;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .p5leftcomponent {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #16263b;
+    color: white;
+  }
+  
+  .p4heading {
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .p4heading p {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .p4heading h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .p4heading h3 {
+    font-size: 3rem;
+    font-weight: normal;
+  }
+  
+  .p4leftbottom {
+    color: white;
+  }
+  
+  .p4leftbottom h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .p4leftbottom p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Coming-soon {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: #14213d;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .skip {
+    position: absolute;
+    bottom: 2rem;
+    right: 5rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .p5rightcomponent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: #0b1118;
+    position: relative;
+  }
+  
+  .p5top {
+    display: flex;
+    gap:10px;
+    position: relative;
+  }
+  
+  .p5t1, .p5t2 {
+    position: relative;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .p5t1 {
+    left: 0;
+  }
+  
+  .p5t2 {
+    right: 0;
+  }
+  
+  .p5center {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    transform: translateY(50%,-50%);
+  }
+  
+  .p5bottom {
+    display: flex;
+    gap:10px;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .p5b1, .p5b2 {
+    position: relative;
+    bottom: 0;
+    flex:1;
+    
+  }
+  
+  .p5b1 {
+    left: 0;
+  }
+  
+  .p5b2 {
+    right: 0;
+  }
+  
+  .p5t1 img, .p5t2 img, .p5c img, .p5b1 img, .p5b2 img {
+    max-width: 100%;
+    display: block;
+  }
+  

@@ -1,6 +1,4 @@
-import p3imgleft from "../images/p3imgleft.png";
-import p3imgright from "../images/p3imgright.png";
-import heading4 from "../images/page3Heading.png"
+
 import "../styles/Page3.css";
 const Page3 = () => {
   return (
@@ -22,10 +20,10 @@ const Page3 = () => {
       </div>
       <div className="page4Right">
         <div className="p4imgleft">
-          <img src={p4imgleft} alt="App Screenshot 4" />
+          <img src="" alt="App Screenshot 4" />
         </div>
         <div className="p4imgright">
-          <img src={p4imgright} alt="App Screenshot 1" />
+          <img src="" alt="App Screenshot 1" />
         </div>
       </div>
     </div>
