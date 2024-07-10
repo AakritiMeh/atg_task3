@@ -5,7 +5,7 @@ import "../styles/Page1F.css"
 import { useInView } from "react-intersection-observer";
 import { useEffect } from 'react';
 import {motion , useAnimation} from "framer-motion"
-
+import si1 from "../images/si1.png"
 const Page1F = () => {
 
     const controlsLeft = useAnimation();
@@ -36,7 +36,7 @@ const Page1F = () => {
     
         <div className="Page1Main">
           <div className="page1Left">
-           
+                <div></div>
                 <div className="p1heading">
                 <h1>25M+ Downloads</h1>
                 <h2>on appstore & google playstore</h2>
@@ -47,9 +47,12 @@ const Page1F = () => {
                 <div className="p1leftbottom">
                 <h1>ABC 123</h1>
                 <p>We are the best web development <br/> company in the world</p>
-                <a href="#" className="view-case-study">View Case Study →</a>
+                <p className="view-case-study">View Case Study →</p>
                 </div>
            
+          </div>
+          <div className="ScrolllImage1">
+            <img src={si1}></img>
           </div>
           <div className="page1Right">
             <motion.div

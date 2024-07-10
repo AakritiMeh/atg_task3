@@ -3,6 +3,7 @@
     height: 100vh;
     color: white;
     overflow: hidden;
+    position: relative;
   }
   
   .page1Left {
@@ -18,6 +19,8 @@
   .p1heading {
     color: white;
     z-index: 1000;
+    justify-content: right;
+    
   }
   
   .p1heading h1 {
@@ -34,7 +37,7 @@
   
   .p1left {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
   }
   
@@ -53,11 +56,9 @@
   }
   
   .view-case-study {
-    padding: 0.5rem 1rem;
-    background-color: white;
-    color: #14213d;
+    padding: 0.5rem 1rem; 
+    color: white ;
     text-decoration: none;
-    border-radius: 5px;
     display: inline-block;
   }
   
@@ -83,3 +84,10 @@
     text-decoration: none;
   }
   
+.ScrolllImage1{
+  position: absolute;
+  top:30vh;
+  left:35vw;
+  background-color: #16263b;
+  border-radius: 50%;
+}

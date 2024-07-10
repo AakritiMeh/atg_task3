@@ -6,7 +6,7 @@ import p3imgleft from "../images/p3imgleft.png";
 import p3imgright from "../images/p3imgright.png";
 import heading3 from "../images/page3Heading.png";
 import "../styles/Page3F.css";
-
+import si3 from "../images/si3.png"
 const Page3F = () => {
   const controlsRightImage = useAnimation();
   const controlsLeftImage = useAnimation();
@@ -80,6 +80,9 @@ const Page3F = () => {
             <p className="skip">SKIP</p>
           </div>
         </motion.div>
+      </div>
+      <div className="ScrollImage3">
+          <img src={si3}></img>
       </div>
       <div className="page3Right">
         <motion.div

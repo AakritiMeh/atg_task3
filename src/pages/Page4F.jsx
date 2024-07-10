@@ -7,6 +7,7 @@ import p4br from "../images/p4br.png";
 import p4bl from "../images/p4bl.png";
 import p4tl from "../images/p4tl.png";
 import p4tr from "../images/p4tr.png";
+import si4 from "../images/si4.png"
 import "../styles/Page4F.css";
 
 const Page4F = () => {
@@ -136,6 +137,9 @@ const Page4F = () => {
             <p className="skip">SKIP</p>
           </div>
         </motion.div>
+      </div>
+      <div className="ScrollImage4">
+          <img src={si4}></img>
       </div>
       <div className="page4Right">
         <motion.div

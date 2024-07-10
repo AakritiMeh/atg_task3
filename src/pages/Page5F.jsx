@@ -7,6 +7,7 @@ import p5t2 from "../images/p5t2.png";
 import p5c from "../images/p5c.png";
 import p5b1 from "../images/p5b1.png";
 import p5b2 from "../images/p5b2.png";
+import si5 from "../images/si5.png"
 import "../styles/Page5F.css";
 
 const Page5F = () => {
@@ -114,6 +115,9 @@ const Page5F = () => {
             <p className="skip">SKIP</p>
           </div>
         </motion.div>
+      </div>
+      <div className="ScrollImage5">
+            <img src={si5}></img>
       </div>
       <div className="p5rightcomponent">
         <div className="p5top">

@@ -1,0 +1,24 @@
+.transrgwht {
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transition: stroke-dasharray 0.3s ease;
+  }
+  
+  .dots-nav .dotsst {
+    transition: fill 0.3s ease, transform 0.3s ease;
+  }
+  
+  .dots-nav.active .dotsst {
+    fill: rgb(255, 255, 255);
+    transform: scale(1.5);
+  }
+  
+  .dots-nav .dotsstro {
+    stroke-width: 2;
+    transition: stroke-width 0.3s ease;
+  }
+  
+  .dots-nav.active .dotsstro {
+    stroke-width: 3;
+  }
+  

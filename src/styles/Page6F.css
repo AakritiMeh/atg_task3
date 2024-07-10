@@ -1,0 +1,76 @@
+.p6Main {
+    display: flex;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .p6left {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #012a90;
+  }
+  
+  .p6heading {
+    margin-bottom: 20px;
+  }
+  
+  .p6heading p {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .p6heading h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .p6heading h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .p6leftbottom {
+    margin-top: 20px;
+  }
+  
+  .p6leftbottom h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .p6leftbottom p {
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+  
+  .Coming-soon, .skip {
+    font-size: 14px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  
+  .p6right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .p6right img {
+    max-width: 100%;
+    display: block;
+  }
+
+  .ScrollImage6{
+    position: absolute;
+    top:30vh;
+    left:35vw;
+    background-color: #012a90;
+    border-radius: 50%;
+  }
+  
